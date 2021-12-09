@@ -1,1 +1,3 @@
-# htpp-right-vers
+import requests
+res = requests.get('htpp://vimvd.ru/')
+print(res.headers)
